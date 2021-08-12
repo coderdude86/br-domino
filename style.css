@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(139, 102, 102);
+    color: whitesmoke;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body>h1 {
+    color: white;
+}
+
+h1 {
+    text-shadow: rgb(219, 209, 167) 1px 0 10px;
+    font-size: 3rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+
+}
+
+.domino-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.domino-list>li {
+    list-style-type: none;
+    font-size: 6rem;
+    color: whitesmoke;
+}
+
+.refresh-btn {
+    width: 5.5rem;
+    height: 3.5rem;
+    font-size: 2rem;
+    background-color: transparent;
+    color: whitesmoke;
+}
+
+.selected {
+    filter: drop-shadow(0 0 0.25rem white);
+}
